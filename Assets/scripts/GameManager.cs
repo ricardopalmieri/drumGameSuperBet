@@ -20,7 +20,7 @@ public class GameManager : MonoBehaviour
     public GameObject startButton;
     public GameObject hands;
 
-    
+
 
     //privagate int currentFase = 1;
     public GameState currentState = GameState.Intro;
@@ -34,6 +34,7 @@ public class GameManager : MonoBehaviour
     public beatScroller bScroller;
 
     public static GameManager instance;
+    public bool isPerfect = false;
 
     public int currentScore;
     public int scorePerNote;
@@ -109,6 +110,7 @@ public class GameManager : MonoBehaviour
                 case GameState.Intro:
                     ChangeGameState(GameState.Gameplay);
                     StartPlay();
+                    sorteado = csvReader.sorteado;
                     break;
                 case GameState.Gameplay:
                     ChangeGameState(GameState.Result);
@@ -136,7 +138,7 @@ public class GameManager : MonoBehaviour
             PlayerPrefs.SetInt("GiveSpecialPrize", 1);
         }
 
-        sorteado = csvReader.sorteado;
+
     }
 
     void Old_StartPlay()
@@ -264,14 +266,17 @@ public class GameManager : MonoBehaviour
         if (hitType == NoteHitType.Perfect)
         {
             NoteHit(true);
+            isPerfect = true;
         }
         else if (hitType == NoteHitType.Hit)
         {
             NoteHit();
+            isPerfect = false;
         }
         else
         {
             NoteMiss();
+            isPerfect = false;
         }
     }
 
@@ -281,22 +286,22 @@ public class GameManager : MonoBehaviour
 
         //Debug.Log("Note Hit" + currentScore.ToString());
 
-        if (perfect){
+        if (perfect)
+        {
             currentScore += scorePerNote * 2;
-            
         }
-        else{
+        else
+        {
             currentScore += scorePerNote;
-
-
+        }
         scoreText.text = currentScore.ToString();
         scoreTextFinal.text = currentScore.ToString();
-        }
     }
 
     public void NoteMiss()
     {
-        Debug.Log("Note Miss");
+        // Debug.Log("Note Miss");
+        isPerfect = false;
     }
 
 

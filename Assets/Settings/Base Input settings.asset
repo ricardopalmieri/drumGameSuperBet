@@ -13,4 +13,6 @@ MonoBehaviour:
   m_Name: Base Input settings
   m_EditorClassIdentifier: 
   inputWindowBefore: 0.1
-  inputWindowAfter: 0.4
+  inputWindowAfter: 0.1
+  inputWindowBeforePerfect: 0.9
+  inputWindowAfterPerfect: 0.9

@@ -89,5 +89,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 250000
-  fadeOutTime: 1
+  fadeOutTime: 3
   distanceToMove: 600

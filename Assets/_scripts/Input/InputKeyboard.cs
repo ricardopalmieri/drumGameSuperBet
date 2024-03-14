@@ -12,19 +12,45 @@ public class InputKeyboard : MonoBehaviour, IInputReceiver
     [Space]
     public MusicGamplay musicGamplay;
 
+    public GameObject btA;
+    public GameObject btB;
+    public GameObject btC;
+    public GameObject btD;
+    private ImageSwitcher bt1;
+    private ImageSwitcher bt2;
+    private ImageSwitcher bt3;
+    private ImageSwitcher bt4;
+
+    private void Start()
+    {
+
+        bt1 = btA.GetComponent<ImageSwitcher>();
+        bt2 = btB.GetComponent<ImageSwitcher>();
+        bt3 = btC.GetComponent<ImageSwitcher>();
+        bt4 = btD.GetComponent<ImageSwitcher>();
+    }
+
     private void Update()
     {
-        if (Input.GetKeyDown(key1))
+
+        //coloquei aqui qdo tenho a colisão na UI
+        if (Input.GetKeyDown(key1) || bt1.isOverlapping)
+        {
             OnHitNote1();
+        }
 
-        if (Input.GetKeyDown(key2))
+        else if (Input.GetKeyDown(key2) || bt2.isOverlapping)
+        {
             OnHitNote2();
-
-        if (Input.GetKeyDown(key3))
+        }
+        else if (Input.GetKeyDown(key3) || bt3.isOverlapping)
+        {
             OnHitNote3();
-
-        if (Input.GetKeyDown(key4))
+        }
+        else if (Input.GetKeyDown(key4) || bt4.isOverlapping)
+        {
             OnHitNote4();
+        }
     }
 
     public void OnHitNote1()
