@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5841093775292352937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347073570113364853}
+  - component: {fileID: 5481300469140796182}
+  m_Layer: 0
+  m_Name: gameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1347073570113364853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841093775292352937}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -54.5708, z: 77.264114}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5481300469140796182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841093775292352937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac272e3602700dd409c590a53909ac67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicGamplay: {fileID: 0}
+  fase1: {fileID: 0}
+  fase2: {fileID: 0}
+  fase3: {fileID: 0}
+  music01:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  startPlaying: 0
+  bScroller: {fileID: 0}
+  currentScore: 0
+  scorePerNote: 650
+  scoreText: {fileID: 0}
+  scoreTextFinal: {fileID: 0}
+  tracks:
+  - {fileID: 11400000, guid: 32a0b4843ac0b3d4ba1ac2bbedeb2140, type: 2}
+  - {fileID: 11400000, guid: 60e181e3b1047cc43bac437159d94e18, type: 2}
+  - {fileID: 11400000, guid: a6913a97c61140349ae71ee5d6c655df, type: 2}
+  giveawayImage: {fileID: 0}
+  giveawayGroup:
+  - {fileID: 11400000, guid: 304d646fd6e57cc45bf85a3f7c784d3c, type: 2}
+  - {fileID: 11400000, guid: 02c7dc01620219540a9ad07306f30031, type: 2}
+  - {fileID: 11400000, guid: 41514aa72df15d84f8a6950d42f63c71, type: 2}
+  - {fileID: 11400000, guid: e8685a03aa844224a85b4d5ca85961d1, type: 2}
+  specialGiveaway: {fileID: 11400000, guid: 8493ffb3c9cc3d3449e85cd036f0a8f0, type: 2}

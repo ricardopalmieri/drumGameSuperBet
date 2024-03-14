@@ -1,0 +1,824 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8a7b67b74ef5243a70f33ec599978c, type: 3}
+  m_Name: g02
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: ea53529f89ef5bc419713cfe4bb77472, type: 3}
+  notes:
+  - name: C4
+    midi: 60
+    time: 2.307692
+  - name: F4
+    midi: 65
+    time: 3.0288458
+  - name: E4
+    midi: 64
+    time: 3.461538
+  - name: D4
+    midi: 62
+    time: 4.038461
+  - name: C4
+    midi: 60
+    time: 4.615384
+  - name: F4
+    midi: 65
+    time: 5.192307
+  - name: E4
+    midi: 64
+    time: 5.76923
+  - name: D4
+    midi: 62
+    time: 6.346153
+  - name: C4
+    midi: 60
+    time: 6.923076
+  - name: F4
+    midi: 65
+    time: 7.499999
+  - name: E4
+    midi: 64
+    time: 8.076922
+  - name: D4
+    midi: 62
+    time: 8.653845
+  - name: E4
+    midi: 64
+    time: 9.230768
+  - name: F4
+    midi: 65
+    time: 9.807691
+  - name: D4
+    midi: 62
+    time: 10.528845
+  - name: E4
+    midi: 64
+    time: 10.961537
+  - name: C4
+    midi: 60
+    time: 11.53846
+  - name: E4
+    midi: 64
+    time: 12.115383
+  - name: D4
+    midi: 62
+    time: 12.692306
+  - name: C4
+    midi: 60
+    time: 13.846152
+  - name: E4
+    midi: 64
+    time: 14.423075
+  - name: D4
+    midi: 62
+    time: 14.999998
+  - name: C4
+    midi: 60
+    time: 16.153845
+  - name: E4
+    midi: 64
+    time: 16.730766
+  - name: D4
+    midi: 62
+    time: 17.30769
+  - name: D4
+    midi: 62
+    time: 18.461536
+  - name: F4
+    midi: 65
+    time: 19.03846
+  - name: E4
+    midi: 64
+    time: 19.615381
+  - name: F4
+    midi: 65
+    time: 20.192305
+  - name: C4
+    midi: 60
+    time: 20.769228
+  - name: E4
+    midi: 64
+    time: 21.346151
+  - name: D4
+    midi: 62
+    time: 21.923075
+  - name: E4
+    midi: 64
+    time: 22.499996
+  - name: C4
+    midi: 60
+    time: 23.07692
+  - name: F4
+    midi: 65
+    time: 23.653843
+  - name: E4
+    midi: 64
+    time: 24.374996
+  - name: F4
+    midi: 65
+    time: 24.80769
+  - name: D4
+    midi: 62
+    time: 25.384611
+  - name: F4
+    midi: 65
+    time: 25.961535
+  - name: E4
+    midi: 64
+    time: 26.538458
+  - name: F4
+    midi: 65
+    time: 27.115381
+  - name: D4
+    midi: 62
+    time: 27.692305
+  - name: D4
+    midi: 62
+    time: 27.980766
+  - name: E4
+    midi: 64
+    time: 28.84615
+  - name: F4
+    midi: 65
+    time: 29.423073
+  - name: C4
+    midi: 60
+    time: 29.999996
+  - name: C4
+    midi: 60
+    time: 30.288458
+  - name: E4
+    midi: 64
+    time: 31.442303
+  - name: F4
+    midi: 65
+    time: 31.730764
+  - name: D4
+    midi: 62
+    time: 32.30769
+  - name: D4
+    midi: 62
+    time: 32.59615
+  - name: E4
+    midi: 64
+    time: 34.61538
+  - name: E4
+    midi: 64
+    time: 34.903843
+  - name: E4
+    midi: 64
+    time: 36.923073
+  - name: E4
+    midi: 64
+    time: 37.211533
+  - name: F4
+    midi: 65
+    time: 38.07692
+  - name: D4
+    midi: 62
+    time: 38.65384
+  - name: C4
+    midi: 60
+    time: 39.230762
+  - name: C4
+    midi: 60
+    time: 39.519226
+  - name: E4
+    midi: 64
+    time: 39.807686
+  - name: D4
+    midi: 62
+    time: 39.95192
+  - name: E4
+    midi: 64
+    time: 40.09615
+  - name: D4
+    midi: 62
+    time: 40.24038
+  - name: E4
+    midi: 64
+    time: 40.673073
+  - name: D4
+    midi: 62
+    time: 40.817303
+  - name: E4
+    midi: 64
+    time: 40.961533
+  - name: D4
+    midi: 62
+    time: 41.105762
+  - name: C4
+    midi: 60
+    time: 41.538456
+  - name: C4
+    midi: 60
+    time: 41.826916
+  - name: C4
+    midi: 60
+    time: 43.84615
+  - name: E4
+    midi: 64
+    time: 44.423073
+  - name: D4
+    midi: 62
+    time: 44.567303
+  - name: E4
+    midi: 64
+    time: 44.711533
+  - name: D4
+    midi: 62
+    time: 44.855762
+  - name: E4
+    midi: 64
+    time: 45.288456
+  - name: D4
+    midi: 62
+    time: 45.432686
+  - name: E4
+    midi: 64
+    time: 45.576916
+  - name: D4
+    midi: 62
+    time: 45.72115
+  - name: C4
+    midi: 60
+    time: 46.15384
+  - name: E4
+    midi: 64
+    time: 46.730762
+  - name: F4
+    midi: 65
+    time: 47.307686
+  - name: E4
+    midi: 64
+    time: 47.596146
+  - name: D4
+    midi: 62
+    time: 47.88461
+  - name: C4
+    midi: 60
+    time: 48.17307
+  - name: C4
+    midi: 60
+    time: 48.461533
+  - name: E4
+    midi: 64
+    time: 49.038456
+  - name: D4
+    midi: 62
+    time: 49.90384
+  - name: E4
+    midi: 64
+    time: 50.192303
+  - name: C4
+    midi: 60
+    time: 50.7542
+  - name: C4
+    midi: 60
+    time: 51.04747
+  - name: E4
+    midi: 64
+    time: 51.348553
+  - name: E4
+    midi: 64
+    time: 51.612972
+  - name: D4
+    midi: 62
+    time: 51.90504
+  - name: E4
+    midi: 64
+    time: 52.170067
+  - name: D4
+    midi: 62
+    time: 52.432686
+  - name: C4
+    midi: 60
+    time: 53.076916
+  - name: C4
+    midi: 60
+    time: 53.36538
+  - name: E4
+    midi: 64
+    time: 53.638214
+  - name: E4
+    midi: 64
+    time: 53.9423
+  - name: D4
+    midi: 62
+    time: 54.230762
+  - name: E4
+    midi: 64
+    time: 54.519222
+  - name: D4
+    midi: 62
+    time: 54.807686
+  - name: D4
+    midi: 62
+    time: 55.38461
+  - name: F4
+    midi: 65
+    time: 55.961533
+  - name: E4
+    midi: 64
+    time: 56.538452
+  - name: F4
+    midi: 65
+    time: 57.115376
+  - name: C4
+    midi: 60
+    time: 57.6923
+  - name: E4
+    midi: 64
+    time: 58.269222
+  - name: D4
+    midi: 62
+    time: 58.846146
+  - name: F4
+    midi: 65
+    time: 59.42307
+  - name: F4
+    midi: 65
+    time: 59.71153
+  - name: E4
+    midi: 64
+    time: 59.999992
+  - name: E4
+    midi: 64
+    time: 60.288452
+  - name: D4
+    midi: 62
+    time: 60.576916
+  - name: C4
+    midi: 60
+    time: 61.15384
+  - name: C4
+    midi: 60
+    time: 61.4423
+  - name: F4
+    midi: 65
+    time: 61.730762
+  - name: F4
+    midi: 65
+    time: 62.019222
+  - name: E4
+    midi: 64
+    time: 62.307686
+  - name: E4
+    midi: 64
+    time: 62.596146
+  - name: D4
+    midi: 62
+    time: 62.884605
+  - name: C4
+    midi: 60
+    time: 63.46153
+  - name: C4
+    midi: 60
+    time: 63.749992
+  - name: F4
+    midi: 65
+    time: 64.03845
+  - name: D4
+    midi: 62
+    time: 64.615974
+  - name: E4
+    midi: 64
+    time: 65.1923
+  - name: C4
+    midi: 60
+    time: 65.76922
+  - name: F4
+    midi: 65
+    time: 66.346146
+  - name: E4
+    midi: 64
+    time: 66.923065
+  - name: D4
+    midi: 62
+    time: 67.49999
+  - name: C4
+    midi: 60
+    time: 68.07691
+  - name: C4
+    midi: 60
+    time: 68.36537
+  - name: F4
+    midi: 65
+    time: 68.65324
+  - name: E4
+    midi: 64
+    time: 69.23076
+  - name: D4
+    midi: 62
+    time: 69.807686
+  - name: C4
+    midi: 60
+    time: 70.384605
+  - name: C4
+    midi: 60
+    time: 70.673065
+  - name: F4
+    midi: 65
+    time: 70.96153
+  - name: E4
+    midi: 64
+    time: 71.53845
+  - name: D4
+    midi: 62
+    time: 72.11537
+  - name: E4
+    midi: 64
+    time: 72.6923
+  - name: D4
+    midi: 62
+    time: 73.26922
+  - name: F4
+    midi: 65
+    time: 73.846146
+  - name: E4
+    midi: 64
+    time: 74.42787
+  - name: F4
+    midi: 65
+    time: 74.99999
+  - name: F4
+    midi: 65
+    time: 75.28845
+  json: "      {\r\n         \"startTime\":2.3076920000000003,\r\n         \"duration\":75.3834034104167,\r\n        
+    \"length\":146,\r\n         \"notes\":[\r\n            {\r\n               \"name\":\"C4\",\r\n              
+    \"midi\":60,\r\n               \"time\":2.3076920000000003,\r\n              
+    \"velocity\":0.31496062992125984,\r\n               \"duration\":0.09735575624999981\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":3.0288457500000003,\r\n               \"velocity\":0.29133858267716534,\r\n              
+    \"duration\":0.12920671354166657\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":3.4615380000000004,\r\n              
+    \"velocity\":0.4645669291338583,\r\n               \"duration\":0.16346151666666664\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":4.038461000000001,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.10336537083333308\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":4.615384000000001,\r\n              
+    \"velocity\":0.5354330708661418,\r\n               \"duration\":0.11237979270833343\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":5.1923070000000004,\r\n               \"velocity\":0.5669291338582677,\r\n              
+    \"duration\":0.12800479062499992\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":5.76923,\r\n              
+    \"velocity\":0.5826771653543307,\r\n               \"duration\":0.1027644093750002\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":6.346153000000001,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.09615383333333316\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":6.923076000000001,\r\n              
+    \"velocity\":0.6141732283464567,\r\n               \"duration\":0.10637017812500016\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":7.499999000000001,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.1081730624999997\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":8.076922,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.09735575624999981\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":8.653845,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.09194710312499943\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":9.230768,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.12439902187499996\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":9.807691,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.12139421458333288\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":10.52884475,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.09735575624999981\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":10.961537,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.10036056354166689\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":11.53846,\r\n              
+    \"velocity\":0.5984251968503937,\r\n               \"duration\":0.11778844583333381\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":12.115383000000001,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.09314902604166697\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":12.692306000000002,\r\n              
+    \"velocity\":0.6141732283464567,\r\n               \"duration\":0.08834133437500036\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":13.846152000000004,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.10396633229166596\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":14.423075000000003,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.10576921666666728\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":14.999998000000003,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.08653845000000082\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":16.153844000000003,\r\n              
+    \"velocity\":0.5511811023622047,\r\n               \"duration\":0.10997594687500012\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":16.730767000000004,\r\n               \"velocity\":0.6141732283464567,\r\n              
+    \"duration\":0.09675479479166782\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":17.307690000000004,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.09795671770833181\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":18.461536000000002,\r\n               \"velocity\":0.5511811023622047,\r\n              
+    \"duration\":0.1057692166666655\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":19.038459,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.11117786979166766\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":19.615382,\r\n               \"velocity\":0.6141732283464567,\r\n              
+    \"duration\":0.09855767916666736\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":20.192305,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.1129807541666672\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":20.769228000000002,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.12139421458333288\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":21.346151000000003,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.10456729375000151\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":21.923074000000003,\r\n               \"velocity\":0.5826771653543307,\r\n              
+    \"duration\":0.08293268124999997\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":22.499997000000004,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.09795671770833181\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":23.07692,\r\n               \"velocity\":0.5511811023622047,\r\n              
+    \"duration\":0.11778844583333381\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":23.653843000000002,\r\n              
+    \"velocity\":0.6141732283464567,\r\n               \"duration\":0.13281248229166565\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":24.37499675,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.08533652708333506\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":24.807689000000003,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.0997596020833349\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":25.384612000000004,\r\n               \"velocity\":0.6141732283464567,\r\n              
+    \"duration\":0.09495191041666828\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":25.961535000000005,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.10336537083333397\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":26.538458000000006,\r\n               \"velocity\":0.5511811023622047,\r\n              
+    \"duration\":0.11899036875000135\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":27.115381000000006,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.11358171562499919\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":27.692304000000007,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.09675479479166782\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":27.980765500000008,\r\n              
+    \"velocity\":0.5669291338582677,\r\n               \"duration\":0.10396633229166596\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":28.84615000000001,\r\n               \"velocity\":0.6141732283464567,\r\n              
+    \"duration\":0.10096152499999889\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":29.423073000000006,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.10757210104166504\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":29.999996000000003,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.10456729375000151\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":30.288457500000003,\r\n              
+    \"velocity\":0.5511811023622047,\r\n               \"duration\":0.11237979270833165\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":31.4423035,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.10997594687500012\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":31.730765,\r\n              
+    \"velocity\":0.5984251968503937,\r\n               \"duration\":0.14062498124999934\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":32.307688,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.08894229583333413\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":32.5961495,\r\n              
+    \"velocity\":0.5511811023622047,\r\n               \"duration\":0.08413460416666396\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":34.61538,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.0931490260416652\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":34.9038415,\r\n              
+    \"velocity\":0.5826771653543307,\r\n               \"duration\":0.06249999166666953\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":36.923072000000005,\r\n               \"velocity\":0.48031496062992124,\r\n              
+    \"duration\":0.1063701781249975\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":37.2115335,\r\n              
+    \"velocity\":0.5354330708661418,\r\n               \"duration\":0.09495191041666828\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":38.076918000000006,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.1183894072916658\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":38.65384100000001,\r\n              
+    \"velocity\":0.6141732283464567,\r\n               \"duration\":0.11057690833333567\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":39.23076400000001,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.10997594687499657\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":39.519225500000005,\r\n              
+    \"velocity\":0.5511811023622047,\r\n               \"duration\":0.13942305833333535\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":39.80768700000001,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.09555287187500028\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":39.95191775000001,\r\n              
+    \"velocity\":0.44881889763779526,\r\n               \"duration\":0.09675479479166427\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":40.096148500000005,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.09975960208333134\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":40.240379250000004,\r\n              
+    \"velocity\":0.5669291338582677,\r\n               \"duration\":0.09435094895833629\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":40.673071500000006,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.09675479479166427\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":40.817302250000004,\r\n              
+    \"velocity\":0.5511811023622047,\r\n               \"duration\":0.12740382916666704\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":40.961533,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.09014421874999812\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":41.10576375,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.09975960208333134\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":41.538456,\r\n               \"velocity\":0.5826771653543307,\r\n              
+    \"duration\":0.10396633229166952\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":41.8269175,\r\n              
+    \"velocity\":0.5511811023622047,\r\n               \"duration\":0.10877402395833258\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":43.846148,\r\n               \"velocity\":0.5196850393700787,\r\n              
+    \"duration\":0.1069711395833366\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":44.423071,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.13581728958333628\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":44.567301750000006,\r\n               \"velocity\":0.2677165354330709,\r\n              
+    \"duration\":0.10757210104166859\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":44.711532500000004,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.1051682552083335\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":44.85576325,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.10276440937499842\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":45.2884555,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.13641825104166827\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":45.432686249999996,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.10216344791666643\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":45.576916999999995,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.13762017395833226\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":45.72114774999999,\r\n               \"velocity\":0.5669291338582677,\r\n              
+    \"duration\":0.08834133437500213\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":46.153839999999995,\r\n              
+    \"velocity\":0.5511811023622047,\r\n               \"duration\":0.12199517604166488\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":46.730762999999996,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.12860575208333103\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":47.307686,\r\n              
+    \"velocity\":0.7322834645669292,\r\n               \"duration\":0.12079325312500089\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":47.5961475,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.09915864062499935\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":47.884609,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.1069711395833366\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":48.1730705,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.0925480645833332\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":48.461532,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.08533652708333506\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":49.038455,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.08774037291667014\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":49.903839500000004,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.10276440937499842\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":50.192301,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.10757210104166859\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":50.754199963541666,\r\n              
+    \"velocity\":0.5826771653543307,\r\n               \"duration\":0.11598556145833072\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":51.04746915520833,\r\n               \"velocity\":0.5826771653543307,\r\n              
+    \"duration\":0.09615383333333227\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":51.34855084583333,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.09615383333333227\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":51.6129738875,\r\n               \"velocity\":0.5826771653543307,\r\n              
+    \"duration\":0.09615383333333227\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":51.90504115624999,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.10276440937499842\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":52.17006515937499,\r\n               \"velocity\":0.6141732283464567,\r\n              
+    \"duration\":0.0931490260416652\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":52.43268531666666,\r\n              
+    \"velocity\":0.5984251968503937,\r\n               \"duration\":0.10096152500000244\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":53.07691599999999,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.10336537083333042\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":53.36537749999999,\r\n              
+    \"velocity\":0.5669291338582677,\r\n               \"duration\":0.11298075416666364\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":53.638214002083316,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.08774037291667014\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":53.94230049999999,\r\n              
+    \"velocity\":0.5826771653543307,\r\n               \"duration\":0.08593748854166705\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":54.23076199999999,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.0925480645833332\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":54.51922349999999,\r\n              
+    \"velocity\":0.5826771653543307,\r\n               \"duration\":0.09735575625000337\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":54.80768499999999,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.09555287187500028\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":55.38460799999999,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.10396633229166952\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":55.961530999999994,\r\n               \"velocity\":0.8031496062992126,\r\n              
+    \"duration\":0.10937498541666457\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":56.538453999999994,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.1316105593749981\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":57.115376999999995,\r\n               \"velocity\":0.8031496062992126,\r\n              
+    \"duration\":0.11117786979166766\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":57.692299999999996,\r\n              
+    \"velocity\":0.5984251968503937,\r\n               \"duration\":0.1334134437500012\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":58.269223,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.09675479479166427\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":58.846146,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.10036056354166334\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":59.42306899999999,\r\n               \"velocity\":0.8031496062992126,\r\n              
+    \"duration\":0.1195913302083369\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":59.711530499999995,\r\n              
+    \"velocity\":0.6141732283464567,\r\n               \"duration\":0.10096152500000244\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":59.999992,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.08954325729166612\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":60.288453499999996,\r\n              
+    \"velocity\":0.5826771653543307,\r\n               \"duration\":0.09795671770833536\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":60.576915,\r\n               \"velocity\":0.6299212598425197,\r\n              
+    \"duration\":0.09855767916666736\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":61.153838,\r\n              
+    \"velocity\":0.6141732283464567,\r\n               \"duration\":0.11658652291666982\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":61.442299500000004,\r\n               \"velocity\":0.5511811023622047,\r\n              
+    \"duration\":0.10096152500000244\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":61.73076100000001,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.10096152500000244\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":62.01922250000001,\r\n               \"velocity\":0.5826771653543307,\r\n              
+    \"duration\":0.09795671770833536\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":62.307684000000016,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.08052883541666489\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":62.59614550000001,\r\n               \"velocity\":0.5511811023622047,\r\n              
+    \"duration\":0.1442307499999984\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":62.88460700000001,\r\n              
+    \"velocity\":0.6299212598425197,\r\n               \"duration\":0.09435094895833629\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":63.46153000000001,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.10156248645833443\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":63.749991500000014,\r\n              
+    \"velocity\":0.5669291338582677,\r\n               \"duration\":0.10216344791666643\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":64.03845300000002,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.11057690833332856\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":64.61597696145834,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.09795671770832826\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":65.192299,\r\n               \"velocity\":0.6141732283464567,\r\n              
+    \"duration\":0.0937499875000043\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":65.76922200000001,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.11718748437499471\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":66.346145,\r\n               \"velocity\":0.8031496062992126,\r\n              
+    \"duration\":0.1580528635416698\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":66.92306800000001,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.12680286770833504\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":67.49999100000002,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.09555287187500028\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":68.07691400000002,\r\n              
+    \"velocity\":0.5669291338582677,\r\n               \"duration\":0.1334134437500012\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":68.36537550000001,\r\n               \"velocity\":0.5354330708661418,\r\n              
+    \"duration\":0.10757210104166859\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":68.65323603854168,\r\n              
+    \"velocity\":0.6141732283464567,\r\n               \"duration\":0.1448317114583375\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":69.23076000000002,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.10216344791666643\r\n            },\r\n            {\r\n              
+    \"name\":\"D4\",\r\n               \"midi\":62,\r\n               \"time\":69.80768300000001,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.0931490260416723\r\n           
+    },\r\n            {\r\n               \"name\":\"C4\",\r\n               \"midi\":60,\r\n              
+    \"time\":70.38460600000002,\r\n               \"velocity\":0.5984251968503937,\r\n              
+    \"duration\":0.09435094895833629\r\n            },\r\n            {\r\n              
+    \"name\":\"C4\",\r\n               \"midi\":60,\r\n               \"time\":70.67306750000002,\r\n              
+    \"velocity\":0.5196850393700787,\r\n               \"duration\":0.09735575624999626\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":70.96152900000001,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.10096152500000244\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":71.53845200000002,\r\n              
+    \"velocity\":0.7322834645669292,\r\n               \"duration\":0.09915864062500646\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":72.11537500000003,\r\n               \"velocity\":0.7322834645669292,\r\n              
+    \"duration\":0.10156248645833443\r\n            },\r\n            {\r\n              
+    \"name\":\"E4\",\r\n               \"midi\":64,\r\n               \"time\":72.69229800000004,\r\n              
+    \"velocity\":0.6850393700787402,\r\n               \"duration\":0.10036056354167044\r\n           
+    },\r\n            {\r\n               \"name\":\"D4\",\r\n               \"midi\":62,\r\n              
+    \"time\":73.26922100000004,\r\n               \"velocity\":0.7322834645669292,\r\n              
+    \"duration\":0.0919471031249941\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":73.84614400000004,\r\n              
+    \"velocity\":0.8031496062992126,\r\n               \"duration\":0.10216344791666643\r\n           
+    },\r\n            {\r\n               \"name\":\"E4\",\r\n               \"midi\":64,\r\n              
+    \"time\":74.4278746916667,\r\n               \"velocity\":0.6850393700787402,\r\n              
+    \"duration\":0.09675479479166427\r\n            },\r\n            {\r\n              
+    \"name\":\"F4\",\r\n               \"midi\":65,\r\n               \"time\":74.99999000000004,\r\n              
+    \"velocity\":0.6614173228346457,\r\n               \"duration\":0.10156248645833443\r\n           
+    },\r\n            {\r\n               \"name\":\"F4\",\r\n               \"midi\":65,\r\n              
+    \"time\":75.28845150000004,\r\n               \"velocity\":0.6614173228346457,\r\n              
+    \"duration\":0.09495191041666828\r\n            }\r\n         ],\r\n        
+    \"controlChanges\":{\r\n            \r\n         },\r\n         \"id\":1,\r\n        
+    \"name\":\"ReaSynth\",\r\n         \"channelNumber\":0,\r\n         \"isPercussion\":false\r\n     
+    }"

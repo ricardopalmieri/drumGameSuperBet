@@ -1,0 +1,752 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d8a7b67b74ef5243a70f33ec599978c, type: 3}
+  m_Name: d03
+  m_EditorClassIdentifier: 
+  audioClip: {fileID: 8300000, guid: 29fb4581940302d438b95628bf1499cf, type: 3}
+  notes:
+  - name: F4
+    midi: 65
+    time: 1.777776
+  - name: D4
+    midi: 62
+    time: 3.1143486
+  - name: F4
+    midi: 65
+    time: 3.555552
+  - name: D4
+    midi: 62
+    time: 4.777773
+  - name: F4
+    midi: 65
+    time: 5.333328
+  - name: D4
+    midi: 62
+    time: 6.66666
+  - name: F4
+    midi: 65
+    time: 7.111104
+  - name: D4
+    midi: 62
+    time: 8.444436
+  - name: F4
+    midi: 65
+    time: 8.88888
+  - name: D4
+    midi: 62
+    time: 10.237953
+  - name: F4
+    midi: 65
+    time: 10.684249
+  - name: D4
+    midi: 62
+    time: 11.999988
+  - name: F4
+    midi: 65
+    time: 12.444432
+  - name: E4
+    midi: 64
+    time: 13.129617
+  - name: C4
+    midi: 60
+    time: 13.33332
+  - name: D4
+    midi: 62
+    time: 13.777764
+  - name: F4
+    midi: 65
+    time: 14.222208
+  - name: F4
+    midi: 65
+    time: 15.111096
+  - name: F4
+    midi: 65
+    time: 15.999984
+  - name: D4
+    midi: 62
+    time: 16.444427
+  - name: C4
+    midi: 60
+    time: 16.555538
+  - name: E4
+    midi: 64
+    time: 16.785168
+  - name: F4
+    midi: 65
+    time: 16.888872
+  - name: E4
+    midi: 64
+    time: 17.229612
+  - name: F4
+    midi: 65
+    time: 17.77776
+  - name: C4
+    midi: 60
+    time: 17.77776
+  - name: C4
+    midi: 60
+    time: 18.111094
+  - name: D4
+    midi: 62
+    time: 18.222204
+  - name: F4
+    midi: 65
+    time: 18.666649
+  - name: F4
+    midi: 65
+    time: 19.555536
+  - name: C4
+    midi: 60
+    time: 19.555536
+  - name: D4
+    midi: 62
+    time: 19.99998
+  - name: F4
+    midi: 65
+    time: 20.444424
+  - name: C4
+    midi: 60
+    time: 21.11109
+  - name: F4
+    midi: 65
+    time: 21.333311
+  - name: C4
+    midi: 60
+    time: 21.999977
+  - name: F4
+    midi: 65
+    time: 22.2222
+  - name: D4
+    midi: 62
+    time: 22.444422
+  - name: E4
+    midi: 64
+    time: 22.674051
+  - name: F4
+    midi: 65
+    time: 22.999977
+  - name: E4
+    midi: 64
+    time: 23.007385
+  - name: C4
+    midi: 60
+    time: 23.555532
+  - name: F4
+    midi: 65
+    time: 23.999975
+  - name: D4
+    midi: 62
+    time: 24.44442
+  - name: F4
+    midi: 65
+    time: 24.888865
+  - name: E4
+    midi: 64
+    time: 25.118494
+  - name: C4
+    midi: 60
+    time: 25.333307
+  - name: E4
+    midi: 64
+    time: 25.562937
+  - name: F4
+    midi: 65
+    time: 25.777752
+  - name: C4
+    midi: 60
+    time: 25.888863
+  - name: D4
+    midi: 62
+    time: 26.111086
+  - name: F4
+    midi: 65
+    time: 26.66664
+  - name: C4
+    midi: 60
+    time: 27.222195
+  - name: F4
+    midi: 65
+    time: 27.555529
+  - name: D4
+    midi: 62
+    time: 27.999971
+  - name: F4
+    midi: 65
+    time: 28.444416
+  - name: D4
+    midi: 62
+    time: 28.78099
+  - name: D4
+    midi: 62
+    time: 28.999971
+  - name: C4
+    midi: 60
+    time: 28.999971
+  - name: D4
+    midi: 62
+    time: 29.222193
+  - name: D4
+    midi: 62
+    time: 29.333303
+  - name: F4
+    midi: 65
+    time: 29.333303
+  - name: D4
+    midi: 62
+    time: 29.444414
+  - name: D4
+    midi: 62
+    time: 29.666637
+  - name: E4
+    midi: 64
+    time: 29.674044
+  - name: F4
+    midi: 65
+    time: 29.777748
+  - name: C4
+    midi: 60
+    time: 29.883766
+  - name: E4
+    midi: 64
+    time: 30.118488
+  - name: F4
+    midi: 65
+    time: 30.222193
+  - name: C4
+    midi: 60
+    time: 30.777746
+  - name: F4
+    midi: 65
+    time: 31.11108
+  - name: D4
+    midi: 62
+    time: 31.555525
+  - name: C4
+    midi: 60
+    time: 31.666636
+  - name: F4
+    midi: 65
+    time: 31.999968
+  - name: D4
+    midi: 62
+    time: 32.444412
+  - name: C4
+    midi: 60
+    time: 32.555523
+  - name: F4
+    midi: 65
+    time: 32.888855
+  - name: D4
+    midi: 62
+    time: 33.3333
+  - name: C4
+    midi: 60
+    time: 33.444412
+  - name: F4
+    midi: 65
+    time: 33.777744
+  - name: D4
+    midi: 62
+    time: 34.222187
+  - name: C4
+    midi: 60
+    time: 34.333298
+  - name: E4
+    midi: 64
+    time: 34.340706
+  - name: F4
+    midi: 65
+    time: 34.666634
+  - name: D4
+    midi: 62
+    time: 35.111076
+  - name: C4
+    midi: 60
+    time: 35.222187
+  - name: F4
+    midi: 65
+    time: 35.55552
+  - name: D4
+    midi: 62
+    time: 35.999966
+  - name: E4
+    midi: 64
+    time: 36.00737
+  - name: C4
+    midi: 60
+    time: 36.111076
+  - name: F4
+    midi: 65
+    time: 36.44441
+  - name: D4
+    midi: 62
+    time: 36.88885
+  - name: C4
+    midi: 60
+    time: 36.99996
+  - name: F4
+    midi: 65
+    time: 37.333298
+  - name: D4
+    midi: 62
+    time: 37.77774
+  - name: E4
+    midi: 64
+    time: 37.78515
+  - name: F4
+    midi: 65
+    time: 38.222183
+  - name: D4
+    midi: 62
+    time: 38.66663
+  - name: C4
+    midi: 60
+    time: 38.77774
+  - name: F4
+    midi: 65
+    time: 39.111073
+  - name: F4
+    midi: 65
+    time: 39.444405
+  - name: E4
+    midi: 64
+    time: 39.562923
+  - name: C4
+    midi: 60
+    time: 39.666626
+  - name: F4
+    midi: 65
+    time: 39.99996
+  - name: D4
+    midi: 62
+    time: 40.444405
+  - name: F4
+    midi: 65
+    time: 41.33329
+  - name: E4
+    midi: 64
+    time: 41.3407
+  - name: C4
+    midi: 60
+    time: 41.444405
+  - name: F4
+    midi: 65
+    time: 41.666626
+  - name: C4
+    midi: 60
+    time: 41.888847
+  - name: D4
+    midi: 62
+    time: 42.22218
+  - name: F4
+    midi: 65
+    time: 42.22218
+  - name: F4
+    midi: 65
+    time: 42.777737
+  - name: D4
+    midi: 62
+    time: 43.11107
+  - name: F4
+    midi: 65
+    time: 43.4444
+  - name: E4
+    midi: 64
+    time: 43.679585
+  - name: D4
+    midi: 62
+    time: 43.999954
+  - name: C4
+    midi: 60
+    time: 43.999954
+  - name: F4
+    midi: 65
+    time: 44.22218
+  - name: C4
+    midi: 60
+    time: 44.4444
+  - name: D4
+    midi: 62
+    time: 44.888844
+  - name: E4
+    midi: 64
+    time: 45.007362
+  - name: F4
+    midi: 65
+    time: 45.222176
+  - name: D4
+    midi: 62
+    time: 45.777733
+  - name: F4
+    midi: 65
+    time: 46.222176
+  - name: D4
+    midi: 62
+    time: 46.555508
+  - name: E4
+    midi: 64
+    time: 46.562916
+  - name: F4
+    midi: 65
+    time: 46.66662
+  - name: F4
+    midi: 65
+    time: 46.999954
+  - name: F4
+    midi: 65
+    time: 47.555508
+  - name: C4
+    midi: 60
+    time: 47.99995
+  - name: D4
+    midi: 62
+    time: 48.010136
+  - name: E4
+    midi: 64
+    time: 48.22958
+  - name: C4
+    midi: 60
+    time: 48.333286
+  - name: F4
+    midi: 65
+    time: 48.444397
+  - name: F4
+    midi: 65
+    time: 48.77773
+  - name: C4
+    midi: 60
+    time: 48.88884
+  - name: F4
+    midi: 65
+    time: 49.333282
+  - name: D4
+    midi: 62
+    time: 49.77773
+  - name: C4
+    midi: 60
+    time: 49.77773
+  - name: E4
+    midi: 64
+    time: 50.11847
+  - name: F4
+    midi: 65
+    time: 50.22217
+  - name: C4
+    midi: 60
+    time: 50.22217
+  - name: C4
+    midi: 60
+    time: 50.666615
+  - name: F4
+    midi: 65
+    time: 51.11106
+  - name: D4
+    midi: 62
+    time: 51.444393
+  - name: C4
+    midi: 60
+    time: 51.555504
+  - name: F4
+    midi: 65
+    time: 51.999947
+  - name: C4
+    midi: 60
+    time: 51.999947
+  - name: D4
+    midi: 62
+    time: 52.444393
+  - name: E4
+    midi: 64
+    time: 52.4518
+  - name: E4
+    midi: 64
+    time: 52.674023
+  - name: F4
+    midi: 65
+    time: 52.888836
+  - name: C4
+    midi: 60
+    time: 52.888836
+  - name: D4
+    midi: 62
+    time: 53.777725
+  - name: F4
+    midi: 65
+    time: 54.222168
+  - name: E4
+    midi: 64
+    time: 54.229576
+  - name: E4
+    midi: 64
+    time: 54.451797
+  - name: C4
+    midi: 60
+    time: 54.5555
+  - name: D4
+    midi: 62
+    time: 54.66661
+  - name: C4
+    midi: 60
+    time: 54.999947
+  - name: F4
+    midi: 65
+    time: 55.111057
+  - name: D4
+    midi: 62
+    time: 55.5555
+  - name: F4
+    midi: 65
+    time: 55.999943
+  - name: E4
+    midi: 64
+    time: 56.00735
+  - name: E4
+    midi: 64
+    time: 56.229572
+  - name: D4
+    midi: 62
+    time: 56.44439
+  - name: F4
+    midi: 65
+    time: 56.888832
+  - name: C4
+    midi: 60
+    time: 56.888832
+  - name: C4
+    midi: 60
+    time: 57.222164
+  - name: D4
+    midi: 62
+    time: 57.333275
+  - name: E4
+    midi: 64
+    time: 57.674015
+  - name: F4
+    midi: 65
+    time: 57.77772
+  - name: E4
+    midi: 64
+    time: 57.89624
+  - name: F4
+    midi: 65
+    time: 58.666607
+  - name: C4
+    midi: 60
+    time: 58.999943
+  - name: D4
+    midi: 62
+    time: 59.111053
+  - name: F4
+    midi: 65
+    time: 59.555496
+  - name: E4
+    midi: 64
+    time: 59.562904
+  - name: E4
+    midi: 64
+    time: 59.896236
+  - name: D4
+    midi: 62
+    time: 59.99994
+  - name: C4
+    midi: 60
+    time: 59.99994
+  - name: C4
+    midi: 60
+    time: 60.22216
+  - name: E4
+    midi: 64
+    time: 60.22957
+  - name: F4
+    midi: 65
+    time: 60.444386
+  - name: D4
+    midi: 62
+    time: 60.88883
+  - name: F4
+    midi: 65
+    time: 61.33327
+  - name: C4
+    midi: 60
+    time: 61.33327
+  - name: D4
+    midi: 62
+    time: 61.777718
+  - name: F4
+    midi: 65
+    time: 62.22216
+  - name: C4
+    midi: 60
+    time: 62.22216
+  - name: C4
+    midi: 60
+    time: 62.44438
+  - name: D4
+    midi: 62
+    time: 62.666603
+  - name: F4
+    midi: 65
+    time: 63.11105
+  - name: E4
+    midi: 64
+    time: 63.118454
+  - name: D4
+    midi: 62
+    time: 63.555492
+  - name: C4
+    midi: 60
+    time: 63.555492
+  - name: E4
+    midi: 64
+    time: 63.5629
+  - name: F4
+    midi: 65
+    time: 63.999935
+  - name: E4
+    midi: 64
+    time: 64.00735
+  - name: C4
+    midi: 60
+    time: 64.33327
+  - name: D4
+    midi: 62
+    time: 64.439285
+  - name: C4
+    midi: 60
+    time: 64.6666
+  - name: D4
+    midi: 62
+    time: 64.77262
+  - name: F4
+    midi: 65
+    time: 64.888824
+  - name: D4
+    midi: 62
+    time: 65.22216
+  - name: F4
+    midi: 65
+    time: 65.77771
+  - name: C4
+    midi: 60
+    time: 66.22215
+  - name: E4
+    midi: 64
+    time: 66.22956
+  - name: E4
+    midi: 64
+    time: 66.5629
+  - name: F4
+    midi: 65
+    time: 66.6666
+  - name: E4
+    midi: 64
+    time: 67.00734
+  - name: D4
+    midi: 62
+    time: 67.111046
+  - name: C4
+    midi: 60
+    time: 67.111046
+  - name: C4
+    midi: 60
+    time: 67.444374
+  - name: F4
+    midi: 65
+    time: 67.55549
+  - name: C4
+    midi: 60
+    time: 67.888824
+  - name: D4
+    midi: 62
+    time: 67.99993
+  - name: F4
+    midi: 65
+    time: 68.444374
+  - name: D4
+    midi: 62
+    time: 68.57262
+  - name: D4
+    midi: 62
+    time: 68.89438
+  - name: F4
+    midi: 65
+    time: 69.33327
+  - name: C4
+    midi: 60
+    time: 69.33327
+  - name: E4
+    midi: 64
+    time: 69.674
+  - name: D4
+    midi: 62
+    time: 69.77771
+  - name: F4
+    midi: 65
+    time: 70.11104
+  - name: E4
+    midi: 64
+    time: 70.11845
+  - name: D4
+    midi: 62
+    time: 70.666595
+  - name: C4
+    midi: 60
+    time: 70.666595
+  - name: E4
+    midi: 64
+    time: 70.674
+  - name: F4
+    midi: 65
+    time: 70.99993
+  - name: C4
+    midi: 60
+    time: 70.99993
+  - name: D4
+    midi: 62
+    time: 71.33326
+  - name: C4
+    midi: 60
+    time: 71.444374
+  - name: D4
+    midi: 62
+    time: 71.559654
+  - name: D4
+    midi: 62
+    time: 71.7777
+  - name: D4
+    midi: 62
+    time: 71.99993
+  - name: F4
+    midi: 65
+    time: 71.99993
+  - name: D4
+    midi: 62
+    time: 72.22215
+  - name: D4
+    midi: 62
+    time: 72.444374
+  - name: D4
+    midi: 62
+    time: 72.666595
+  - name: C4
+    midi: 60
+    time: 72.7777
+  - name: D4
+    midi: 62
+    time: 72.88882
+  - name: F4
+    midi: 65
+    time: 72.88882
+  - name: E4
+    midi: 64
+    time: 72.896225
+  jsonFile: {fileID: 4900000, guid: 3b744ee50fa30d545b31b470eea6009b, type: 3}
