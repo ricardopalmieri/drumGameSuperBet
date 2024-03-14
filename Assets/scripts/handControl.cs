@@ -16,6 +16,7 @@ public class handControl : MonoBehaviour
     Image sR;
     private Vector2 position = new Vector2(0f, 0f);
     private Vector3 objPos = new Vector3(0f, -30f, 0f);
+    public float upDown = 0.0f;
 
     private Vector3 handPos;
     // Start is called before the first frame update
@@ -54,7 +55,7 @@ public class handControl : MonoBehaviour
                 HandSelect(handName);
 
                 objPos = handPos;
-                Vector2 canvasPosition = new Vector2(objPos.x * 1000f, objPos.y * 1000f);
+                Vector2 canvasPosition = new Vector2((objPos.x * 1000f) + 0.0f, (objPos.y * 1000f) + upDown);
                 rb.anchoredPosition = Vector2.Lerp(rb.anchoredPosition, canvasPosition, speed);
                 sR.enabled = true;
 

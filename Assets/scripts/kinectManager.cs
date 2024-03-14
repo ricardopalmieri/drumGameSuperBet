@@ -49,7 +49,7 @@ public class kinectManager : MonoBehaviour
 
                         dist = Vector3.Distance(transform.position, GetJointPosition(closestBody.Joints[Windows.Kinect.JointType.SpineBase]));
                         // Limita a detecção à distância máxima
-                        if (dist <= 184.5f)
+                        if (dist <= maxDistance)
                         {
                             // Obtém as posições das mãos esquerda e direita
                             handLeftPosition = GetJointPosition(closestBody.Joints[Windows.Kinect.JointType.HandLeft]);
