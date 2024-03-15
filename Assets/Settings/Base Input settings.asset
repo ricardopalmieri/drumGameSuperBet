@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90fca19e9651eb46871c68eb947d97b, type: 3}
   m_Name: Base Input settings
   m_EditorClassIdentifier: 
-  inputWindowBefore: 0.1
-  inputWindowAfter: 0.1
-  inputWindowBeforePerfect: 0.07
-  inputWindowAfterPerfect: 0.05
+  inputWindowBefore: 0.2
+  inputWindowAfter: 0.2
+  inputWindowBeforePerfect: 0.06
+  inputWindowAfterPerfect: 0.06

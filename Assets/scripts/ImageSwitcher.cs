@@ -45,6 +45,9 @@ public class ImageSwitcher : MonoBehaviour
                 // Troca para a sprite de destino
                 image.sprite = targetSprite;
 
+
+
+                    
                 // Execute event enter
                 OnOverlap.Invoke();
             }
