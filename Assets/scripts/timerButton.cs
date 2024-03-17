@@ -46,8 +46,9 @@ public class TimerTrigger : MonoBehaviour
             if (overlapTimer >= overlapTimeThreshold)
             {
                 Debug.Log("Mude de fase");
-                gm1.ChangeGameState(GameState.Gameplay);
-                gm1.StartPlay();
+                gm1.ChangeGameState(GameState.MidGame);
+                //gm1.ChangeGameState(GameState.Gameplay);
+                //gm1.StartPlay();
                 gameObject.SetActive(false);
             }
 

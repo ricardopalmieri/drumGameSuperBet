@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e477b935af51b648a859b3f1e16cb05, type: 3}
   m_Name: GiveAway Special
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 43201b924bff1154ebef275a5cea44ad, type: 3}
+  sprite: {fileID: 21300000, guid: 73946f114c6e09948b9b3ca83f60804a, type: 3}
   text: premio especial

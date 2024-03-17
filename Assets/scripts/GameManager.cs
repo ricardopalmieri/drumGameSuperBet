@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     public GameObject startButton;
     public GameObject hands;
 
+    public CanvasGroup canvasGroup;
+
 
 
     //privagate int currentFase = 1;
@@ -34,7 +36,7 @@ public class GameManager : MonoBehaviour
     public beatScroller bScroller;
 
     public static GameManager instance;
-    public bool isPerfect = false;
+    public bool isPerfect1 = false;
 
     public int currentScore;
     public int scorePerNote;
@@ -108,9 +110,15 @@ public class GameManager : MonoBehaviour
             switch (currentState)
             {
                 case GameState.Intro:
-                    ChangeGameState(GameState.Gameplay);
-                    StartPlay();
-                    sorteado = csvReader.sorteado;
+
+                    hands.SetActive(true);
+                    fase1.SetActive(true);
+                    controles.SetActive(false);
+                    startButton.SetActive(true);
+
+                    //StartCoroutine(FadeRoutine());
+
+
                     break;
                 case GameState.Gameplay:
                     ChangeGameState(GameState.Result);
@@ -120,6 +128,7 @@ public class GameManager : MonoBehaviour
                     ResetScene();
                     break;
             }
+            isPerfect1 = false;
         }
 
         /*
@@ -182,18 +191,29 @@ public class GameManager : MonoBehaviour
         switch (newState)
         {
             case GameState.Intro:
+
+
+
                 hands.SetActive(true);
                 fase1.SetActive(true);
                 controles.SetActive(false);
                 startButton.SetActive(true);
                 PrepareMusic();
+
+                break;
+            case GameState.MidGame:
+
+                StartCoroutine(FadeRoutine());
+                //  currentState = GameState.Gameplay;
+
                 break;
             case GameState.Gameplay:
+
                 hands.SetActive(true);
-                StartPlay();
                 fase2.SetActive(true);
                 controles.SetActive(true);
                 startButton.SetActive(false);
+
                 break;
             case GameState.Result:
 
@@ -266,17 +286,17 @@ public class GameManager : MonoBehaviour
         if (hitType == NoteHitType.Perfect)
         {
             NoteHit(true);
-            isPerfect = true;
+            isPerfect1 = true;
         }
         else if (hitType == NoteHitType.Hit)
         {
             NoteHit();
-            isPerfect = false;
+            isPerfect1 = false;
         }
         else
         {
             NoteMiss();
-            isPerfect = false;
+            isPerfect1 = false;
         }
     }
 
@@ -301,8 +321,56 @@ public class GameManager : MonoBehaviour
     public void NoteMiss()
     {
         // Debug.Log("Note Miss");
-        isPerfect = false;
+        isPerfect1 = false;
     }
+
+
+    IEnumerator FadeRoutine()
+    {
+        // Encontrar um elemento 100% transparente no canvas
+        if (canvasGroup == null)
+        {
+            Debug.LogError("Canvas Group não atribuído.");
+            yield break;
+        }
+
+        float fadeDuration = 0.5f; // Duração do fade
+
+        // Fade para preto
+        float timer = 0f;
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(0f, 1f, timer / fadeDuration);
+            yield return null;
+        }
+
+        yield return new WaitForSeconds(0.5f);
+
+        // Chamar outras funções ou fazer outras operações durante este tempo
+
+
+
+
+
+        // Espera de 0.5 segundos antes de iniciar o fade-out
+        yield return new WaitForSeconds(0.5f);
+        ChangeGameState(GameState.Gameplay);
+
+
+        // Fade de volta para transparente
+        timer = 0f;
+        while (timer < fadeDuration)
+        {
+            timer += Time.deltaTime;
+            canvasGroup.alpha = Mathf.Lerp(1f, 0f, timer / fadeDuration);
+            yield return null;
+        }
+        yield return new WaitForSeconds(1.5f);
+        StartPlay();
+        StopCoroutine(FadeRoutine());
+    }
+
 
 
 

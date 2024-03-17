@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class VisualNote : MonoBehaviour
 {
-    [SerializeField] private Renderer render;
+    [SerializeField] private List<Renderer> renderers = new List<Renderer>();
     [SerializeField] bool wasHit;
 
     public void Setup(GameNote note)
@@ -15,13 +15,17 @@ public class VisualNote : MonoBehaviour
 
     private void OnDisable()
     {
-        
+
     }
 
     void Start()
     {
-        if(render == null)
-            render = GetComponent<Renderer>();
+        if (renderers.Count == 0)
+        {
+            // Procurar os Renderers nos filhos (modelos OBJ)
+            Renderer[] childRenderers = GetComponentsInChildren<Renderer>();
+            renderers.AddRange(childRenderers);
+        }
     }
 
     public void SetHit()
@@ -32,7 +36,11 @@ public class VisualNote : MonoBehaviour
 
     public void SetMiss()
     {
-        render.material.SetColor("_Color", Color.black);
+        foreach (Renderer renderer in renderers)
+        {
+            renderer.material.SetColor("_Color", Color.black);
+        }
+        StartCoroutine(KillNote());
     }
 
 
@@ -46,25 +54,54 @@ public class VisualNote : MonoBehaviour
     IEnumerator FadeOut()
     {
         float duration = 0.5f;
-
         float growAmount = 0.3f;
 
+        Vector3 endScale = transform.localScale * (1f + growAmount);
 
-        Vector3 endScale = transform.localScale  * (1f+growAmount);
+        List<Color> originalColors = new List<Color>();
 
-        for (float i = 0; i < duration; i+= Time.deltaTime)
+        // Salvar as cores originais dos materiais dos Renderers
+        foreach (Renderer renderer in renderers)
         {
-            var color = render.material.GetColor("_Color");
+            originalColors.Add(renderer.material.GetColor("_Color"));
+        }
 
-            render.material.SetColor("_Color", Color.Lerp(color, Color.clear, i/ duration));
+        for (float i = 0; i < duration; i += Time.deltaTime)
+        {
+            for (int j = 0; j < renderers.Count; j++)
+            {
+                Renderer renderer = renderers[j];
+                Color originalColor = originalColors[j];
+
+                var color = renderer.material.GetColor("_Color");
+                renderer.material.SetColor("_Color", Color.Lerp(originalColor, Color.clear, i / duration));
+            }
 
             transform.localScale = Vector3.Lerp(transform.localScale, endScale, i / duration);
 
-
             yield return null;
         }
-        render.material.SetColor("_Color", Color.clear);
+
+        // Restaurar as cores originais dos materiais dos Renderers
+        for (int j = 0; j < renderers.Count; j++)
+        {
+            Renderer renderer = renderers[j];
+            Color originalColor = originalColors[j];
+            renderer.material.SetColor("_Color", originalColor);
+        }
 
         Destroy(gameObject);
     }
+
+
+    IEnumerator KillNote()
+    {
+
+        yield return new WaitForSeconds(1.0f);
+
+        Destroy(gameObject);
+    }
+
+
+
 }

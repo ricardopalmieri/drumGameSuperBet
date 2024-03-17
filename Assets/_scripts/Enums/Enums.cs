@@ -12,6 +12,7 @@ public enum NoteHitType
 public enum GameState
 {
     Intro,
+    MidGame,
     Gameplay,
     Result
 }
