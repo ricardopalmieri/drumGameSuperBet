@@ -102,7 +102,8 @@ public class GameManager : MonoBehaviour
         if (csvReader.esgotou)
         {
 
-            aviso.SetActive(true);
+             aviso.SetActive(true);
+            Time.timeScale = 0f;
         }
         // Exemplo de como avançar para a próxima fase (pode ser feito de acordo com o seu sistema de jogo)
         if (Input.GetKeyDown(KeyCode.Space))

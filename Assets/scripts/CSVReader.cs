@@ -40,6 +40,14 @@ public class CSVReader : MonoBehaviour
     // Caminho do CSV
     static string csvPath = Application.dataPath + "/CSV/premiosTable.csv";
 
+
+        void Start()
+    {
+
+        ReadCSV();
+  
+    }
+
     // Método para ler o arquivo CSV
 
     private string ReadCSVFile()
@@ -134,12 +142,27 @@ public class CSVReader : MonoBehaviour
     // Método para imprimir o conteúdo do CSV
     private void DebugCSV()
     {
+        double totalSum = 0;
+
         foreach (PrizeData prize in csvData)
         {
             string line = string.Format("ID: {0}, Prêmio: {1}, Inserido: {2}, Consumido: {3}, Total: {4}",
                                         prize.id, prize.premio, prize.inserido, prize.consumido, prize.total);
             Debug.Log(line);
+            totalSum += prize.total;
         }
+
+            // Verifica se a soma total é maior ou menor que zero e imprime uma mensagem correspondente
+    if (totalSum > 0)
+    {
+        Debug.Log("A soma total é maior que zero.");
+        esgotou = false;
+    }
+    else
+    {
+        Debug.Log("A soma total é igual a zero.");
+        esgotou = true;
+    }
     }
 
 
@@ -240,8 +263,8 @@ public class CSVReader : MonoBehaviour
 
     private void Awake()
     {
-        esgotou = false;
-        ReadCSV();
+        //esgotou = false;
+        //ReadCSV();
         //StartCoroutine(espera());
     }
 
@@ -250,4 +273,34 @@ public class CSVReader : MonoBehaviour
         yield return new WaitForSeconds(2.0f);
         DrawPrize();
     }
+
+
+    
+bool IsSumGreaterThanZeroOrEqualToZero(TextAsset data)
+{
+    if (data != null)
+    {
+        string[] lines = data.text.Split('\n');
+        int sum = 0;
+
+        for (int i = 0; i < lines.Length; i++)
+        {
+            string[] columns = lines[i].Trim().Split(';'); // Removendo espaços em branco antes de dividir as colunas
+            if (columns.Length >= 5 && int.TryParse(columns[4], out int value))
+            {
+                sum += value;
+            }
+        }
+
+        // Debug para verificar a soma
+        Debug.Log("Soma dos valores da quinta coluna: " + sum);
+
+        return sum >= 0;
+    }
+    else
+    {
+        Debug.LogError("O arquivo de dados da tabela não foi atribuído.");
+        return false;
+    }
+}
 }
