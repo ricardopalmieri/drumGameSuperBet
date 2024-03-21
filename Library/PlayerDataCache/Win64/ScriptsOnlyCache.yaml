@@ -16,8 +16,10 @@ ScriptsOnlyBuild:
     - SO_InputWindow
     - SO_SongMidi
     - SimpleCounter
+    - StraightMovement
     - TextureMovement
     - TimerTrigger
+    - UIPerfectSpawner
     - VisualNote
     - animaHits
     - beatScroller
@@ -78,7 +80,19 @@ ScriptsOnlyBuild:
     - UnityEngine.TextCore.GlyphRect
     UnityEngine.UI:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: InputKeyboard
+    methodName: OnHitNote1
+  - assembly: Assembly-CSharp
+    fullTypeName: InputKeyboard
+    methodName: OnHitNote2
+  - assembly: Assembly-CSharp
+    fullTypeName: InputKeyboard
+    methodName: OnHitNote4
+  - assembly: Assembly-CSharp
+    fullTypeName: InputKeyboard
+    methodName: OnHitNote3
   sceneClasses:
     Assets/Scenes/main.unity:
     - Class: 1
@@ -154,6 +168,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19878}
     - Class: 114
+      Script: {instanceID: 19908}
+    - Class: 114
       Script: {instanceID: 20058}
     - Class: 114
       Script: {instanceID: 20228}
@@ -184,9 +200,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 22776}
     - Class: 114
-      Script: {instanceID: 23066}
+      Script: {instanceID: 23014}
     - Class: 114
-      Script: {instanceID: 23834}
+      Script: {instanceID: 23068}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -684,7 +700,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 66e531543025fbcb3d9385c577439c33
+      Hash: 374856bf8ffd8e22e44f8285eb1c314c
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: VisualNote
@@ -1032,7 +1048,7 @@ ScriptsOnlyBuild:
     className: UnityOnTriggerEnter2DMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 78182e6edf189e9dc80aaf5334192160
+      Hash: f07e8c0f63194df04cf49cb89ace5a9f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: GameManager
@@ -1128,7 +1144,7 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
-      Hash: dff8a6e0ff111652973c38b4d3f6b9ed
+      Hash: 462e986f669ded6b02cc8d9d1e777833
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: InputKeyboard
@@ -1236,6 +1252,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 1ea7848ce8f67ec0710b04beca6426ed
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StraightMovement
+  - hash:
+      serializedVersion: 2
       Hash: 6cadb804056d74e1095532415e6eafe0
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1255,4 +1277,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/main.unity
-  playerPath: C:/Users/palm/Desktop/superBet/unity/talesProd/builds/drum02/drum01.exe
+  playerPath: C:/Users/palm/Desktop/superBet/unity/talesProd/builds/drum1_0/drum01.exe

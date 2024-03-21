@@ -330,6 +330,7 @@
 "Assets/scripts/noteObject.cs"
 "Assets/scripts/PulsatingOpacity.cs"
 "Assets/scripts/SimpleCounter.cs"
+"Assets/scripts/StraightMovement.cs"
 "Assets/scripts/TextureMovement.cs"
 "Assets/scripts/timerButton.cs"
 "Assets/_scripts/Enums/Enums.cs"
